@@ -11,191 +11,202 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
 
         
         <header class="header">
-    <div class="container main-nav">
-    <nav class="nav">
-        <a href="#" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
-        <ul class="header-link">
-        <li class="header-item"><a  href="index.html" class="header-info">Cтудия</a></li>
-        <li class="header-item"><a href="portfolio.html" class="header-info active" >Портфолио</a></li>
-        <li class="header-item"><a  href="#" class="header-info">Контакты</a></li>
-        </ul>
-    </nav>
-            
-            <ul class="header-link-connect">
-            <li class="header-list">
-                <a href="malto:info@devstudio.com" class="malto">
-                <svg class="connect-icon" width="16" height="12">
-                    <use href="./img/icons.svg#icon-envelope"></use>
-                </svg> info@devstudio.com
-                </a>  
-        </li>
-            <li class="header-list">
-                <a href="tel:+380961111111" class="telephone">
-                <svg class="connect-icon" width="10" height="16">
-                    <use href="./img/icons.svg#icon-Vector"></use>
-                </svg> +38 096 111 11 11
+            <div class="container main__nav"> 
+            <nav class="nav"> 
+                <a href="#" class="nav__logo">
+                    <span class="nav__web">Web</span><span class="nav__studio">Studio</span>
                 </a>
-        </li>
-        </ul>
-    </div>
-        </header>
+                <ul class="nav__link">
+                <li class="nav__item">
+                    <a  href="index.html" class="nav__info ">Cтудия
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="portfolio.html" class="nav__info active" >Портфолио
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__info" >Контакты
+                    </a>
+                </li>
+                </ul>
+            </nav>
+                    
+                 <ul class="header-connect">
+                 <li class="header-connect__list">
+                     <a href="mailto:info@devstudio.com" class="header-connect__malto">
+                        <svg class="header-connect__icon" width="16" height="12">
+                            <use href="./img/icons.svg#icon-envelope"></use>
+                        </svg> info@devstudio.com
+                     </a>  
+                </li>
+                 <li class="header-connect__list">
+                     <a href="tel:+380961111111" class="header-connect__telephone">
+                        <svg class="header-connect__icon" width="10" height="16">
+                            <use href="./img/icons.svg#icon-Vector"></use>
+                        </svg> +38 096 111 11 11
+                     </a>
+                </li>
+                </ul>
+            </div>
+            </header>
 
                      <!-- main section -->
 
-    <main class="main">
-        <section class="main-item">
+    <main class="filters-main">
+        <section class="filters__item">
                     <!-- <h1>Фильтры</h1>  -->
 
         <div class="container">
-            <ul class="main-btn">
-        <li class="btn"> <button class="btn-list secondary" type="button">Все</button> </li>
-        <li class="btn"> <button class="btn-list" type="button">Веб-сайт</button> </li>
-        <li class="btn"> <button class="btn-list" type="button">Приложения</button> </li>
-        <li class="btn"> <button class="btn-list" type="button">Дизайн</button> </li>
-        <li class="btn"> <button class="btn-list" type="button">Маркетинг</button> </li>
+            <ul class="filters__btn">
+        <li class="filters__btn"> <button class="filters__list secondary" type="button">Все</button> </li>
+        <li class="filters__btn"> <button class="filters__list" type="button">Веб-сайт</button> </li>
+        <li class="filters__btn"> <button class="filters__list" type="button">Приложения</button> </li>
+        <li class="filters__btn"> <button class="filters__list" type="button">Дизайн</button> </li>
+        <li class="filters__btn"> <button class="filters__list" type="button">Маркетинг</button> </li>
         </ul>
         
-            <ul class="main-foto-list">
+            <ul class="filters__foto">
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-                <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+                <div class="filters__wrap">
                     <img src="./img/img-(01).png" alt="три человека на фото " width="370"/>
-                    <p class="main-text">Технокряк это современная площадка
+                    <p class="filters__text">Технокряк это современная площадка
                         распространения коронавируса. 
                         Компании используют эту платформу для цифрового шпионажа и 
                         атак на защищённые сервера конкурентов.
                     </p>
                 
                 </div>
-                <h2 class="main-hero">Технокряк</h2>
-                <p class="main-hero-list">Веб-сайт</p> 
+                <h2 class="filters__hero">Технокряк</h2>
+                <p class="filters__hero-list">Веб-сайт</p> 
             </a>         
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-                <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+                <div class="filters__wrap">
                     <img src="./img/img(1).png" alt="два баскетболитса" width="370">
-                    <p class="main-text">Технокряк это современная площадка
+                    <p class="filters__text">Технокряк это современная площадка
                         распространения коронавируса. 
                     Компании используют эту платформу для цифрового шпионажа и 
                     атак на защищённые сервера конкурентов.
                 </p>
                 </div>
-                <h2 class="main-hero">Постер New Orlean vs Golden Star</h2>
-                <p class="main-hero-list">Дизайн</p>
+                <h2 class="filters__hero">Постер New Orlean vs Golden Star</h2>
+                <p class="filters__hero-list">Дизайн</p>
             </a>
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(2).png" alt="бренд ресторана" width="370">
-                <p class="main-text">Технокряк это современная площадка
+                <p class="filters__text">Технокряк это современная площадка
                     распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа и 
                    атак на защищённые сервера конкурентов.
                </p>        
             </div>
-            <h2 class="main-hero">Ресторан Seafood</h2>
-                <p class="main-hero-list">Приложение</p>
+            <h2 class="filters__hero">Ресторан Seafood</h2>
+                <p class="filters__hero-list">Приложение</p>
             </a> 
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(3).png" alt="наушники" width="370">
-                <p class="main-text">Технокряк это современная площадка
+                <p class="filters__text">Технокряк это современная площадка
                     распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа и 
                    атак на защищённые сервера конкурентов.
                </p>  
             </div>
-            <h2 class="main-hero">Проект Prime</h2>
-                <p class="main-hero-list">Маркетинг</p>
+            <h2 class="filters__hero">Проект Prime</h2>
+                <p class="filters__hero-list">Маркетинг</p>
             </a>
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(4).png" alt="две коробки" width="370">
-            <p class="main-text">Технокряк это современная площадка
+            <p class="filters__text">Технокряк это современная площадка
                 распространения коронавируса. 
                Компании используют эту платформу для цифрового шпионажа и 
                атак на защищённые сервера конкурентов.
            </p>
         </div>
-            <h2 class="main-hero">Проект Boxes</h2>
-            <p class="main-hero-list">Приложение</p>
+            <h2 class="filters__hero">Проект Boxes</h2>
+            <p class="filters__hero-list">Приложение</p>
             </a>
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(5).png" alt="монитор" width="370">
-                <p class="main-text">Технокряк это современная площадка
+                <p class="filters__text">Технокряк это современная площадка
                     распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа и 
                    атак на защищённые сервера конкурентов.
                </p>
             </div>
-            <h2 class="main-hero">Inspiration has no Borders</h2>
-            <p class="main-hero-list">Веб-сайт</p>
+            <h2 class="filters__hero">Inspiration has no Borders</h2>
+            <p class="filters__hero-list">Веб-сайт</p>
             </a>
         </li>
 
-            <li class="main-list">
-                <a href="#" class="main-list-link">
-                <div class="main-wrap">
+            <li class="filters__main">
+                <a href="#" class="filters__list-link">
+                <div class="filters__wrap">
                     <img src="./img/img(6).png" alt="журнал" width="370">
-                    <p class="main-text">Технокряк это современная площадка
+                    <p class="filters__text">Технокряк это современная площадка
                         распространения коронавируса. 
                        Компании используют эту платформу для цифрового шпионажа и 
                        атак на защищённые сервера конкурентов.
                    </p>
                 </div>
-         <h2 class="main-hero">Издание Limited Edition</h2>
-                <p class="main-hero-list">Дизайн</p>
+         <h2 class="filters__hero">Издание Limited Edition</h2>
+                <p class="filters__hero-list">Дизайн</p>
                 </a>
             </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(7).png" alt="лейба" width="370">
-                <p class="main-text">Технокряк это современная площадка
+                <p class="filters__text">Технокряк это современная площадка
                     распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа и 
                    атак на защищённые сервера конкурентов.
                </p>
             </div>
-            <h2 class="main-hero">Проект LAB</h2>
-            <p class="main-hero-list">Маркетинг</p>
+            <h2 class="filters__hero">Проект LAB</h2>
+            <p class="filters__hero-list">Маркетинг</p>
             </a>
         </li>
 
-        <li class="main-list">
-            <a href="#" class="main-list-link">
-            <div class="main-wrap">
+        <li class="filters__main">
+            <a href="#" class="filters__list-link">
+            <div class="filters__wrap">
                 <img src="./img/img(8).png" alt="руки печатают на ноутбуки" width="370">
-                <p class="main-text">Технокряк это современная площадка
+                <p class="filters__text">Технокряк это современная площадка
                     распространения коронавируса. 
                    Компании используют эту платформу для цифрового шпионажа и 
                    атак на защищённые сервера конкурентов.
                </p>
             </div>
-            <h2 class="main-hero">Growing Business</h2>
-                <p class="main-hero-list">Приложение</p>
+            <h2 class="filters__hero">Growing Business</h2>
+                <p class="filters__hero-list">Приложение</p>
             </a>
         </li>
     </ul>
@@ -208,46 +219,46 @@
        
         <footer class="footer">
             <div class="container">
-                <div class="footer-colum">
+                <div class="footer__colum">
                     <div class="colum-adress">
-                    <a href="#" class="logo-footer"><span class="web">Web</span><span class="studio-white">Studio</span></a>
+                    <a href="#" class="footer__logo"><span class="footer__web">Web</span><span class="footer__white">Studio</span></a>
                     <address class="footer-info">
-                    <ul class="footer-item">
-                        <li class="footer-list"><a class="footer-link adress" href="#"> г. Киев, пр-т Леси Украинки, 26 </a></li>
-                        <li class="footer-list"><a class="footer-link" href="malto:info@devstudio.com"> info@example.com</a></li>
-                        <li class="footer-list"><a class="footer-link" href="tel:+380961111111"> +38 099 111 11 11</a></li>
+                    <ul class="footer__item">
+                        <li class="footer__list"><a class="footer__link adress" href="#"> г. Киев, пр-т Леси Украинки, 26 </a></li>
+                        <li class="footer__list"><a class="footer__link" href="malto:info@devstudio.com"> info@example.com</a></li>
+                        <li class="footer__list"><a class="footer__link" href="tel:+380961111111"> +38 099 111 11 11</a></li>
                     </ul>
                     </address>
                     </div>
                        
         <div class="colum">           
         <div class="footer-join">
-        <p class="join-text">присоединяйтесь</p>
-        <ul class="join-list">
-            <li class="join-item">
-                <a href="" class="join-link">
-                    <svg class="join-icon" width="20" height="20">
+        <p class="colum__text">присоединяйтесь</p>
+        <ul class="colum__list">
+            <li class="colum__item">
+                <a href="" class="colum__link">
+                    <svg class="colum__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-instagram"></use>
                     </svg>
                 </a>
             </li>
-            <li class="join-item">
-                <a href="" class="join-link">
-                    <svg class="join-icon" width="20" height="20">
+            <li class="colum__item">
+                <a href="" class="colum__link">
+                    <svg class="colum__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-twitter"></use>
                     </svg>
                 </a>
             </li>
-            <li class="join-item">
-                <a href="" class="join-link">
-                    <svg class="join-icon" width="20" height="20">
+            <li class="colum__item">
+                <a href="" class="colum__link">
+                    <svg class="colum__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-facebook"></use>
                     </svg>
                 </a>
             </li>
-            <li class="join-item">
-            <a href="" class="join-link">
-            <svg class="join-icon" width="20" height="20">
+            <li class="colum__item">
+            <a href="" class="colum__link">
+            <svg class="colum__icon" width="20" height="20">
             <use href="./img/icons.svg#icon-linkedin"></use>
             </svg>
             </a>
@@ -257,15 +268,15 @@
         </div>
 
         <form class="subscribe-form">
-            <p class="subscribe-text">Подпишитесь на рассылку</p>
-            <div class="subscribe-wrap">
+            <p class="subscribe-form__text">Подпишитесь на рассылку</p>
+            <div class="subscribe-form__wrap">
                 <input type="text" 
                 name="subscribe-email" 
-                class="subscribe-input"
+                class="subscribe-form__input"
                 placeholder="E-mail"/>
             
-            <button type="submit" class="button-subscribe">Подписаться 
-                <svg class="subscribe-icon" width="24" height="24">
+            <button type="submit" class="subscribe-form__button">Подписаться 
+                <svg class="subscribe-form__icon" width="24" height="24">
                     <use href="./img/icons.svg#icon-iconsend"></use>
                 </svg>
             </button>

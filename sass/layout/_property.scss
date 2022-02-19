@@ -1,0 +1,47 @@
+.property{
+    padding-top: 94px;   
+}
+
+.section-list{
+    display: flex;
+}
+
+.section-list__item{
+    margin-right: 30px;
+    &:nth-child(4){
+        margin-right: 0;  
+    }
+}
+
+.section-list__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+
+.section-list__hero{
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-list__info{
+    color: var(--ptimary-text-color);
+
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;  
+}
